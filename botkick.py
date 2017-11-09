@@ -61,7 +61,7 @@ tracer.addOpInterrupt(17,NOTIFIED_ACCEPT_GROUP_INVITATION)
 
 def NOTIFIED_KICKOUT_FROM_GROUP(op):
     try:
-        sendMessage(op.param1, client.getContact(op.param3).displayName + " Good Bye\nBott kick by : krisnabiru.")
+        sendMessage(op.param1, client.getContact(op.param3).displayName + " Good Bye\nMy owner id : iamfake")
     except Exception as e:
         print e
         print ("\n\nNOTIFIED_KICKOUT_FROM_GROUP\n\n")
@@ -71,7 +71,7 @@ tracer.addOpInterrupt(19,NOTIFIED_KICKOUT_FROM_GROUP)
 
 def NOTIFIED_LEAVE_GROUP(op):
     try:
-        sendMessage(op.param1, client.getContact(op.param2).displayName + " Good Bye\nBott kick by : krisnabiru.")
+        sendMessage(op.param1, client.getContact(op.param2).displayName + " Good Bye\nMy owner id : iamfake")
     except Exception as e:
         print e
         print ("\n\nNOTIFIED_LEAVE_GROUP\n\n")
@@ -130,7 +130,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("Go","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Bott kick by : krisnabiru.")
+                    sendMessage(msg.to,"I am a bott, my owner id : iamfake")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
@@ -217,7 +217,7 @@ def SEND_MESSAGE(op):
                     sendMessage(msg.to,"I want something just like thissssssssssssssssssss ☺")
                     sendMessage(msg.to,"Note : Nyanyi sambil denger sountracknya cok :p")
                     sendMessage(msg.to,"Create by : Kriss :D")
-                    sendMessage(msg.to,"Line id : krisnabiru.")
+                    sendMessage(msg.to,"Line id : iamfake")
                     sendMessage(msg.to,"Ig : krisnabiru")
                     sendMessage(msg.to,"Email : krisnagantenggitu@gmail.com")
 #-------------------------------------------------------------
