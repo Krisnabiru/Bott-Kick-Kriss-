@@ -6,4 +6,4 @@ Keyword :
 - Tag all = Tag semua member
 - Nyanyi = Spam lirik lagu Something Just Like This - Kriss
 
-Line id : krisnabiru.
+Line id : iamfake
